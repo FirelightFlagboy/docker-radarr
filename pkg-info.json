@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/FirelightFlagboy/gh-actions-workflows-docker-services/aab594706e19dd4afe38efa7bbc4c3de33dff0b3/pkg-info.schema.json",
+  "name": "Radarr",
+  "latest_version": "4.7.5.7809",
+  "versions": {
+    "4.7.5.7809": {
+      "amd64": {
+        "filename": "Radarr.master.4.7.5.7809.linux-musl-core-x64.tar.gz",
+        "download_url": "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-musl-core-x64.tar.gz",
+        "digest": "sha512:553c2290f1d907f09e8277dbaee040cc495e53dcb1724307a29cdbda361add020e081ec3eec04284ab1af1c8626eaaf347d70f1e49bec21ffc5689296b463798"
+      },
+      "arm64": {
+        "filename": "Radarr.master.4.7.5.7809.linux-musl-core-arm64.tar.gz",
+        "download_url": "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-musl-core-arm64.tar.gz",
+        "digest": "sha512:664b613f597bc619554b3cabb9646c8c513c4b064c2708935f27361b7ec5cbb127b69c9f5dbc2da654c364d98536ff9d96bd3900b18e76fa4f614740eca5b1ad"
+      }
+    }
+  },
+  "mode": "github-release",
+  "repository_path": "Radarr/Radarr",
+  "arch_asset_patterns": {
+    "amd64": "^.*.linux-musl-core-x64.tar.gz$",
+    "arm64": "^.*.linux-musl-core-arm64.tar.gz$"
+  }
+}
