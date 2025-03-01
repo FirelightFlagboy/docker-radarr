@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/FirelightFlagboy/gh-actions-workflows-docker-services/aab594706e19dd4afe38efa7bbc4c3de33dff0b3/pkg-info.schema.json",
   "name": "Radarr",
-  "latest_version": "5.17.2.9580",
+  "latest_version": "5.19.3.9730",
   "versions": {
     "4.7.5.7809": {
       "amd64": {
@@ -97,6 +97,18 @@
         "filename": "Radarr.master.5.17.2.9580.linux-musl-core-arm64.tar.gz",
         "download_url": "https://github.com/Radarr/Radarr/releases/download/v5.17.2.9580/Radarr.master.5.17.2.9580.linux-musl-core-arm64.tar.gz",
         "digest": "sha512:67a56b2e840561dd68073da57da31d29e3d77d82c7ddc882d250d4d6191251b172a209fffe80c775971a094084b3a1ecd90fed42d7c45d0a961fb94f63bf5a9e"
+      }
+    },
+    "5.19.3.9730": {
+      "amd64": {
+        "filename": "Radarr.master.5.19.3.9730.linux-musl-core-x64.tar.gz",
+        "download_url": "https://github.com/Radarr/Radarr/releases/download/v5.19.3.9730/Radarr.master.5.19.3.9730.linux-musl-core-x64.tar.gz",
+        "digest": "sha512:6685a436c79c801d2c0781eecac0f3e7eb12e6d7ed76728a537c6e71cdfddd4d4ed262bd5818a7c0063335ca1ff3a760d8f4ea8c831afd42c69bd924205abcc3"
+      },
+      "arm64": {
+        "filename": "Radarr.master.5.19.3.9730.linux-musl-core-arm64.tar.gz",
+        "download_url": "https://github.com/Radarr/Radarr/releases/download/v5.19.3.9730/Radarr.master.5.19.3.9730.linux-musl-core-arm64.tar.gz",
+        "digest": "sha512:35ffd759b606b0e73553e50aac019d80a28e0760aa43b010fc2432ef5fdfc3ec0a3df49b65d407c2922d9c5b9a32f4ca7f1b4416307fa486f60b736ea6db28bb"
       }
     },
     "5.2.6.8376": {
